@@ -1,6 +1,24 @@
 {
   "extends": "expo/tsconfig.base",
+  "exclude": ["node_modules"],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "skipBabel": true
+      }
+    }
+  },
   "compilerOptions": {
-    "strict": true
+    "jsx": "react-jsx",
+    "lib": ["es2017", "dom"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2020",
+    "typeRoots": ["./@types", "./node_modules/@types"]
   }
 }
