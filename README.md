@@ -14,7 +14,7 @@ yarn
 npm i
 ```
 
-2. Start project with `yarn start` on `IOS`, then try to click `AUTH LOGIN` button.
+2. Start project with `npx expo start --ios`, then try to click `AUTH LOGIN` button.
 3. You can see a error below.
 
 <img width="381" src="https://user-images.githubusercontent.com/58724686/221757058-f4a2251a-c49a-443e-8723-75237f9b5692.png">
